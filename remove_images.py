@@ -22,5 +22,5 @@ def remove_random_images(folder, num_images=4):
                     print(f"Error removing image: {image_path}")
 
 # Example usage
-folder = "01 Social images"
-remove_random_images(folder, num_images=61)  # Delete 2 random images
+folder = "folder name"
+remove_random_images(folder, num_images=2)  # Delete 2 random images
