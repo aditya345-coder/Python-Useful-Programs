@@ -1,6 +1,6 @@
 import os
 
-def rename_files(folder, prefix="SFW Image"):
+def rename_files(folder, prefix="Image"):
     """Renames files in a folder with a sequential numbering scheme, preserving their original extensions.
 
     Args:
@@ -21,5 +21,5 @@ def rename_files(folder, prefix="SFW Image"):
             print(f"Error renaming {src}: {e}")
 
 # Example usage
-folder_path = "SFW Images"
+folder_path = "folder_path"
 rename_files(folder_path)
